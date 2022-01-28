@@ -1,0 +1,11 @@
+ul.square{
+    list-style-type: square;
+}
+
+ul.circulo{
+    list-style-type: circle;
+}
+
+ol.romano{
+    list-style-type: upper-roman;  
+}

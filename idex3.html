@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taules</title>
+    <link rel="stylesheet" href="style3.css">
+</head>
+<body>
+    <header>
+        <h1>Taules</h1>
+    </header>
+    <main>
+        <h2>Utilizacio colspan</h2>
+        <table class="mitabla">
+            <tr>
+                <td colspan="3">Element 1 i Element 2</td>
+                
+            </tr>
+            <tr>
+                <td>Element 3</td>
+                <td>Element 4</td>
+            </tr>
+        </table>
+
+        <hr>
+
+        <h2>Utilizacio rowspan</h2>
+        <table class="mitabla">
+            <tr>
+                <td rowspan="2">Element 1 i Element 3</td>
+                <td>Element 2</td>
+                
+            </tr>
+            <tr>
+            
+                <td>Element 4</td>
+            </tr>
+        </table>
+
+    <hr>
+
+    <table class="tabla">
+        <tr>
+            <td></td>
+            <td>Viernes</td>
+            <td>Sábado</td>
+            <td>Domingo</td>
+        </tr>
+        <tr>
+            <td>Desayuno</td>
+            <td rowspan="2" colspan="2">Cerrado</td>
+            <td>abierto</td>
+        </tr>
+        <tr>
+        <td>Comida</td>
+        <td>solo vips</td>
+        </tr>
+        <tr>
+        <td>Cena</td>
+        <td>cerrado</td>
+        <td>abierto</td>
+        <td>solo vips</td>
+        </tr>
+        
+
+    </table>
+    </main>
+</body>
+</html>
